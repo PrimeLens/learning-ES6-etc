@@ -16,3 +16,11 @@
 	};
 	addStudent(...args);  // 'mary is female and 15yrs old'
 
+
+
+// the ES6 SPREAD operator used in reverse to capture args as an array
+
+	var captureArgs = (...myArray) => { 
+		console.log('num of args is ', myArray.length); 
+	}
+	captureArgs( 'a', 'b', 15, function(){} ); // 'num of args is 4'
