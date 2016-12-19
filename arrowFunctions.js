@@ -20,7 +20,7 @@
 
 
 
-/***** Example 2 (similarly) *****/
+/***** Example 2 (similarly with multiple params) *****/
 
 	function trxObj(data, num){
 		data.num = num;
