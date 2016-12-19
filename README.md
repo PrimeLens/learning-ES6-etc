@@ -19,9 +19,9 @@ Names of the lessons in this course at the time
 
 - Using the ES6 spread operator
 
-- (not done yet) String Templates in ES6
+- String Templates in ES6
 
-- (not done yet) Destructuring Assignment in ES6
+- Destructuring Assignment in ES6
 
 - (not done yet) ES6 Modules (ES2015) - Import and Export
 
