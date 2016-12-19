@@ -15,9 +15,9 @@ Names of the lessons in this course at the time
 
 - Shorthand Properties in ES6
 
-- (not done yet) Object Enhancements in ES6
+- Object Enhancements in ES6
 
-- (not done yet) Using the ES6 spread operator
+- Using the ES6 spread operator
 
 - (not done yet) String Templates in ES6
 
