@@ -23,16 +23,28 @@ Names of the lessons in this course at the time
 
 - Destructuring Assignment in ES6
 
-- (not done yet) ES6 Modules (ES2015) - Import and Export
+- (no notes taken) ES6 Modules (ES2015) - Import and Export
 
-- (not done yet) Converting an array-like object into an Array with Array.from()
+- (*) Converting an array-like object into an Array with Array.from()
 
-- (not done yet) Promises with ES6
+- (**) Promises with ES6
 
-- (not done yet) ES6 (ES2015) - Generators
+- ES6 (ES2015) - Generators
 
 - (not done yet) Maps and WeakMaps with ES6
 
 - (not done yet) ES6 Parameter Object Destructuring with Required Values
 
 - (not done yet) ES6 Rest Parameters
+
+
+
+* really weird tutorial, completely conta to the pattern of one way data binding and stores
+** no IE support, also I found this to be a terrible example, it did not address the most common usecase which is to have a single block of code fire after multiple asynchronous promises complete
+
+
+
+
+
+
+
