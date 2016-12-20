@@ -40,7 +40,7 @@ Names of the lessons in this course at the time
 
 <sup>*</sup> really weird tutorial, completely conta to the pattern of one way data binding and stores
 
-<sup>**</sup> no IE support, also I found this to be a terrible example, it did not address the most common usecase which is to have a single block of code fire after multiple asynchronous promises complete
+<sup>**</sup> no IE support so used , also I found this to be a terrible example as it did not address multiple asynchronous calls with one callback for all.  I've added an example for this use case. 
 
 
 
