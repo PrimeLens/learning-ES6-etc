@@ -25,9 +25,9 @@ Names of the lessons in this course at the time
 
 - (no notes taken) ES6 Modules (ES2015) - Import and Export
 
-- (*) Converting an array-like object into an Array with Array.from()
+- <sup>*</sup>Converting an array-like object into an Array with Array.from()
 
-- (**) Promises with ES6
+- <sup>**</sup>Promises with ES6
 
 - ES6 (ES2015) - Generators
 
@@ -38,9 +38,9 @@ Names of the lessons in this course at the time
 - (not done yet) ES6 Rest Parameters
 
 
+<sup>*</sup> really weird tutorial, completely conta to the pattern of one way data binding and stores
 
-* really weird tutorial, completely conta to the pattern of one way data binding and stores
-** no IE support, also I found this to be a terrible example, it did not address the most common usecase which is to have a single block of code fire after multiple asynchronous promises complete
+<sup>**</sup> no IE support, also I found this to be a terrible example, it did not address the most common usecase which is to have a single block of code fire after multiple asynchronous promises complete
 
 
 
