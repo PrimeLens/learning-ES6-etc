@@ -1,5 +1,5 @@
 /*
-	maps
+	maps and weakmaps below
 */
 
 	var mappy = new Map();
@@ -42,4 +42,50 @@
 	for(let [key,value] of mappy.entries()){
 		console.log(key, value);  // prints "dog", "fido"   "robot", "wall-e"
 	}
+
+
+// funky shit
+	delete mappy;
+	var mappy = new Map();
+// set an object as the key, set a function as the key
+	mappy.set(  {}, 'fido'  );
+	mappy.set(  ()=>{}, 'wall-e'  );
+
+
+
+
+
+/*
+	WEAK MAPS
+*/
+
+var mappy = new WeakMap();
+// key cannot be a string (but can be an object or a function)
+// cannot have iteration
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
