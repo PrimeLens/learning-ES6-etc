@@ -1,46 +1,43 @@
-# learning-ES6-etc
-my notes for ES6,   ES2015,    ES2016
 
-Course taken at egghead.io [link](https://egghead.io/courses/learn-es6-ecmascript-2015?utm_source=drip&utm_medium=email&utm_campaign=learn-es6)
+# my notes for ES6, ES2015, ES2016
 
-Names of the lessons in this course at the time
-
-- Arrow Function => in ES6 
+- Arrow Function => in ES6<br/>[arrowFunctions.js](./arrowFunctions.js)
 
 - (no notes taken) The let keyword in ES6
 
-- Default Values for Function Parameters in ES6
+- Default Values for Function Parameters in ES6<br/>[defaultArgs.js](./defaultArgs.js)
 
 - (no notes taken) const Declarations in es6 (ES2015)
 
-- Shorthand Properties in ES6
+- Shorthand Properties in ES6<br/>[shorthandObjectLiterals.js](shorthandObjectLiterals.js)
 
-- Object Enhancements in ES6
+- Object Enhancements in ES6<br/>[shorthandObjectLiterals2.js](shorthandObjectLiterals2.js)
 
-- Using the ES6 spread operator
+- Using the ES6 spread operator<br/>[spreadOperator.js](spreadOperator.js)
 
-- String Templates in ES6
+- String Templates in ES6<br/>[stringsAsTemplates.js](stringsAsTemplates.js)
 
-- Destructuring Assignment in ES6
+- Destructuring Assignment in ES6<br/>[shorthandObjectLiterals3_destructuringAssignment.js](shorthandObjectLiterals3_destructuringAssignment.js)
 
 - (no notes taken) ES6 Modules (ES2015) - Import and Export
 
-- <sup>*</sup>Converting an array-like object into an Array with Array.from()
+- <sup>*</sup>(no notes taken) Converting an array-like object into an Array with Array.from()
 
-- <sup>**</sup>Promises with ES6
+- <sup>**</sup>Promises with ES6<br/>[promise.js](promise.js)
 
-- ES6 (ES2015) - Generators
+- ES6 (ES2015) - Generators<br/>[generatorsYield.js](generatorsYield.js)
 
-- Maps and WeakMaps with ES6
+- Maps and WeakMaps with ES6<br/>[maps.js](maps.js)
 
-- (not done yet) ES6 Parameter Object Destructuring with Required Values
+- ES6 Parameter Object Destructuring with Required Values<br/>[defaultsWithDestructuringAssignment.js](defaultsWithDestructuringAssignment.js)
 
-- (not done yet) ES6 Rest Parameters
+- ES6 Rest Parameters
 
+Above lesson names and notes taken from this course at egghead.io [link](https://egghead.io/courses/learn-es6-ecmascript-2015?utm_source=drip&utm_medium=email&utm_campaign=learn-es6)
 
-<sup>*</sup> really weird tutorial, completely conta to the pattern of one way data binding and stores
+<sup>*</sup> really weird tutorial, completely contra to the pattern of one way data binding and stores
 
-<sup>**</sup> no IE support so used , also I found this to be a terrible example as it did not address multiple asynchronous calls with one callback for all.  I've added an example for this use case. 
+<sup>**</sup> no IE support, also I found this to be a terrible example as it did not address multiple asynchronous calls with one callback for all.  I've added an example for this use case a the bottom of my notes as well as IE fallback
 
 
 
