@@ -1,4 +1,3 @@
-
 # my notes for ES6, ES2015, ES2016
 
 - Arrow Function => in ES6<br/>[arrowFunctions.js](./arrowFunctions.js)
