@@ -7,7 +7,7 @@
 
 - Default Values for Function Parameters in ES6<br/>[defaultArgs.js](./defaultArgs.js)
 
-- (no notes taken) const Declarations in es6 (ES2015)
+- (no notes taken) const Declarations in es6 (ES2015)<br/>(just remember its scoped to block only like let)
 
 - Shorthand Properties in ES6<br/>[shorthandObjectLiterals.js](shorthandObjectLiterals.js)
 
@@ -37,7 +37,7 @@ Above lesson names and notes taken from this course at egghead.io [link](https:/
 
 <sup>*</sup> really weird tutorial, completely contra to the pattern of one way data binding and stores
 
-<sup>**</sup> no IE support, also I found this to be a terrible example as it did not address multiple asynchronous calls with one callback for all.  I've added an example for this use case a the bottom of my notes as well as IE fallback
+<sup>**</sup> no IE support, also I found this to be a terrible example. It did not address multiple asynchronous calls with one callback for all.  I've added code in my notes for the missing example use case and I've added IE fallback
 
 
 
