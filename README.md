@@ -31,7 +31,7 @@ Names of the lessons in this course at the time
 
 - ES6 (ES2015) - Generators
 
-- (not done yet) Maps and WeakMaps with ES6
+- Maps and WeakMaps with ES6
 
 - (not done yet) ES6 Parameter Object Destructuring with Required Values
 
