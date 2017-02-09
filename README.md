@@ -40,7 +40,7 @@ Lesson names and notes taken from this course at egghead.io [LINK](https://egghe
 
 ### Extras
 
-- For Import vs Require see this [LINK](http://www.2ality.com/2014/09/es6-modules-final.html)
+- For import vs require see this [LINK](http://www.2ality.com/2014/09/es6-modules-final.html) noting that import is ES6 and require is Node/CommonJS. Take note of section 3.1 where Axel writes "There are other ways to specify named exports (which are explained later), but I find this one quite convenient"
 
 
 
