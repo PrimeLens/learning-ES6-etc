@@ -1,4 +1,6 @@
-# my notes for ES6, ES2015, ES2016
+# My notes for ES6, ES2015, ES2016
+
+Lesson names and notes taken from this course at egghead.io [LINK](https://egghead.io/courses/learn-es6-ecmascript-2015?utm_source=drip&utm_medium=email&utm_campaign=learn-es6)
 
 - Arrow Function => in ES6<br/>[arrowFunctions.js](./arrowFunctions.js)
 
@@ -30,13 +32,15 @@
 
 - ES6 Parameter Object Destructuring with Required Values<br/>[defaultsWithDestructuringAssignment.js](defaultsWithDestructuringAssignment.js)
 
-- ES6 Rest Parameters
-
-Above lesson names and notes taken from this course at egghead.io [link](https://egghead.io/courses/learn-es6-ecmascript-2015?utm_source=drip&utm_medium=email&utm_campaign=learn-es6)
+- (no notes taken) ES6 Rest Parameters
 
 <sup>*</sup> really weird tutorial, completely contra to the pattern of one way data binding and stores
 
 <sup>**</sup> no IE support, also I found this to be a terrible example. It did not address multiple asynchronous calls with one callback for all.  I've added code in my notes for the missing example use case and I've added IE fallback
+
+### Extras
+
+- For Import vs Require see this [LINK](http://www.2ality.com/2014/09/es6-modules-final.html)
 
 
 
