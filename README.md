@@ -42,7 +42,7 @@ Lesson names and notes taken from this course at egghead.io [LINK](https://egghe
 
 - For import vs require see this [LINK](http://www.2ality.com/2014/09/es6-modules-final.html) noting that import is ES6 and require is Node/CommonJS. Take note of section 3.1 where Axel writes "There are other ways to specify named exports (which are explained later), but I find this one quite convenient"
 
-- For ES6 classes I found this [LINK](http://javascriptplayground.com/blog/2014/07/introduction-to-es6-classes-tutorial/) fast and easy to understand
+- My example for comparing factory vs new vs class<br/>[factory\_vs\_new\_vs\_class.js](factory_vs_new_vs_class.js)<br/>  For further notes just on ES6 classes I found this [LINK](http://javascriptplayground.com/blog/2014/07/introduction-to-es6-classes-tutorial/) fast and easy to understand
 
 
 
