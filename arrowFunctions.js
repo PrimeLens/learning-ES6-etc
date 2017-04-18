@@ -65,3 +65,14 @@ var aaa = {
 	}
 }
 
+
+
+
+/***** Example 4 (adding on to Example 1) *****/
+// I've seen this type of code written where
+	(num) => {return {count : num+1}}
+// translates to
+	num => ({count : num+1});
+// I dont necessarily condone it just wanted to record the fact that people are writing code like this and
+// using the () namespace to force it to return the object when the block delimeters {} are missing
+
