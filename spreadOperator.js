@@ -34,6 +34,6 @@
 
 	let data = { a: 'a'};
 	let newData = {...data, b: 'b'};
-	console.log(newData); {a: 'a', b: 'b'}
+	console.log(newData); // {a: 'a', b: 'b'}
 
 
