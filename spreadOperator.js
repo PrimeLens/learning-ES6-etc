@@ -24,3 +24,16 @@
 		console.log('num of args is ', myArray.length); 
 	}
 	captureArgs( 'a', 'b', 15, function(){} ); // 'num of args is 4'
+
+
+
+// Object Spread Operator to extend objects
+	// still Stage 3 proposal, need Babel
+	// https://github.com/tc39/proposal-object-rest-spread#status-of-this-proposal
+	// http://redux.js.org/docs/recipes/UsingObjectSpreadOperator.html
+
+	let data = { a: 'a'};
+	let newData = {...data, b: 'b'};
+	console.log(newData); {a: 'a', b: 'b'}
+
+
