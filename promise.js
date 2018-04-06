@@ -28,23 +28,27 @@
 */
 
 	var p1 = new Promise((resolve, reject) => {
-		setTimeout(() => { 
-			if (true) resolve({data:'one'});   // ajax call may succeed or fail, lets assume it succeeds
+		setTimeout(() => {
+			console.log('one succeeds');
+			resolve({data:'one'});   // ajax call may succeed or fail, lets assume it succeeds
 		}, 1000);  
 	}); 
 	var p2 = new Promise((resolve, reject) => { 
 	 	setTimeout(() => { 
-	 		if (true) resolve({data:'two'}); 
+			console.log('two succeeds');
+	 		resolve({data:'two'}); 
 	 	}, 2000); 
 	});
 	var p3 = new Promise((resolve, reject) => {
 	 	setTimeout(() => { 
-	 		if (true) resolve({data:'three'}); 
+			console.log('three fails');
+	 		reject({data:'three'}); 
 	 	}, 3000);
 	});
 	var p4 = new Promise((resolve, reject) => {
 	 	setTimeout(() => { 
-	 		if (true) resolve({data:'four'}); 
+			console.log('four succeeds');
+	 		resolve({data:'four'}); 
 	 	}, 4000);
 	});
 
@@ -53,8 +57,14 @@
 	.catch((error) => console.error('error : ', error));
 
 
+/*
+	.all().finally()  does not work as expected see this Stack ticket 
+        https://stackoverflow.com/questions/31424561/wait-until-all-es6-promises-complete-even-rejected-promises
+        solution to having a callback after all fails and completes is 
+*/
 
-
+        Promise.all([p1, p2, p3, p4].map(p => p.catch(e => e)))
+        .then(results => console.log('NOW ',results));
 
 // fallback for IE 
 // use jQuery $.when
